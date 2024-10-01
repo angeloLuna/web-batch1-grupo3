@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.tarjeta {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(170, 174, 255);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ .imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid gold;
+}
+
+.texto {
+  padding: 0 20px;
+}
