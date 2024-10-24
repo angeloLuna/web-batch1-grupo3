@@ -1,0 +1,16 @@
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 24px;
+  box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-button {
+  height: 60px;
+  width: 120px;
+  font-size: 18px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  cursor: pointer;
+}

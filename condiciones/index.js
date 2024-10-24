@@ -35,4 +35,45 @@ if (personas === 1) {
   console.log('muestra los paquetes familiares');
 }
 
-1 < 2 < 3
+let jugador1 = 'papel'
+let jugador2 = 'tijera'
+
+
+if (jugador1 == 'papel' && jugador2 == 'tijera') {
+  console.log('gana jugador2');
+}
+if (jugador1 == 'papel' && jugador2 == 'papel') {
+  console.log('empate');
+}
+if (jugador1 == 'papel' && jugador2 == 'piedra') {
+  console.log('gana jugador1');
+}
+
+
+// 1 papel
+// 2 tijera
+// 3 piedra
+
+Math.random
+
+if (jugador1 == jugador2) {
+  console.log('empate');
+}
+
+if (jugador1 == 3 && jugador2 == 2) {
+  console.log('gana jugador1');
+}
+if (jugador1 == 3 && jugador2 == 2) {
+  console.log('gana jugador1');
+}
+if (jugador1 == 3 && jugador2 == 2) {
+  console.log('gana jugador1');
+} 
+
+let password = 'Perritos11'
+
+if (password.length > 7) {
+  console.log('puedes dar en siguiente');
+} else  {
+  console.log('deshabilita el boton');
+}

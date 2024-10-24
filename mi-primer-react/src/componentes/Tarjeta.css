@@ -1,0 +1,12 @@
+.tarjeta-container {
+  border-radius: 10px;
+  box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.75);
+  height: 300px;
+  width: 200px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
