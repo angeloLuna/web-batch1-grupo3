@@ -16,10 +16,11 @@ export default function Home() {
 
   const crearUsuario = async () => {
     try {
-      const docRef = await addDoc(collection(db, "users"), {
-        first: nombre,
-        last: "Quiraman",
-        born: 1813
+      const docRef = await addDoc(collection(db, "services"), {
+        inicio: 'timestamp',
+        lugar: 'id233',
+        vehiculo: 'id155327',
+        final: '',
       });
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
